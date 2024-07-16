@@ -12,8 +12,11 @@
     <link rel="stylesheet" href="{% static 'myapp/styles.css' %}">
 </head>
 <body>
-    {% block content %}
 
+    {% include 'myapp/navbar.html' %}
+
+    {% block content %}
+        TEXT
     {% endblock content %}
 </body>
 </html>
